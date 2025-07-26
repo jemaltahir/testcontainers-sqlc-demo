@@ -30,3 +30,13 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+# Go
+/bin/
+/pkg/
+*.test
+
+# sqlc generated code is committed, but skip cache
+sqlc.cache
+
+# Testcontainers
+.idea/   # if you use GoLand
